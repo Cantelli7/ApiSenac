@@ -27,6 +27,7 @@ app.post('/api/auth/register', async (req, res) => {
   res.status(201).json({ message: 'Usuário cadastrado com sucesso' });
 });
 
+
 // Login
 app.post('/api/auth/login', async (req, res) => {
   const { email, password } = req.body;
